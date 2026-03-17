@@ -5,13 +5,13 @@ This is my implementation for the elementary elevator control system technical t
 
 The solution is developed using .NET 8 and is structured for be "production-ready" for a SaaS or B2B environment. I separate the logic in different layers to show my coding style:
 
-    Abstractions: Define the contracts and interfaces for elevators.
+    - Abstractions: Define the contracts and interfaces for elevators.
 
-    Models: Keep the configurations and enums for status and direction.
+    - Models: Keep the configurations and enums for status and direction.
 
-    Services: The "brain" of the system where the movement algorithm lives.
+    - Services: The "brain" of the system where the movement algorithm lives.
 
-    Unit Tests: A dedicated project using NUnit for validate the logic and prevent bugs.
+    - Unit Tests: A dedicated project using NUnit for validate the logic and prevent bugs.
 
 🛠️ Key Features & Fixes
 
