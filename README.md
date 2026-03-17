@@ -1,17 +1,17 @@
-Elevator Control System - Cristhian Moreno Project
+🏗️ Elevator Control System - Cristhian Moreno Project
 
-This is a technical test for an elementary elevator control system. The system manage 4 elevators in a building with 10 floors. I focus in clean code, maintainability and avoid the common bugs of "yo-yoing" movement.
+This is my implementation for the elementary elevator control system technical test. The system manages 4 elevators in a building with 10 floors. I focus in clean code, maintainability and avoid the common bugs of "yo-yoing" movement that other candidates have before.
 🚀 Architectural Overview
 
-The solution is developed using .NET 8 and is structured for be "production-ready" for a SaaS or B2B environment. I separate the logic in different layers:
+The solution is developed using .NET 8 and is structured for be "production-ready" for a SaaS or B2B environment. I separate the logic in different layers to show my coding style:
 
-    Abstractions: Define the contracts for elevators.
+    Abstractions: Define the contracts and interfaces for elevators.
 
     Models: Keep the configurations and enums for status and direction.
 
     Services: The "brain" of the system where the movement algorithm lives.
 
-    Unit Tests: A dedicated project using NUnit for validate the logic.
+    Unit Tests: A dedicated project using NUnit for validate the logic and prevent bugs.
 
 🛠️ Key Features & Fixes
 
@@ -27,7 +27,7 @@ I have pay attention to the feedback of previous tests for not repeat same mista
 
 🧪 Testing Coverage
 
-The solution include a test project unitTestElevator. This is very important because tests prevent bugs before they happen.
+The solution include a test project unitTestElevator. This is very important because tests prevent many bugs.
 
     Boundary Tests: Check what happen if user input very high or low floors.
 
@@ -37,10 +37,10 @@ The solution include a test project unitTestElevator. This is very important bec
 
 🖥️ How to Run
 
-    Open the solution .sln in Visual Studio 2022 or VS Code.
+    Open the solution .sln in Visual Studio 2022.
 
     Build the solution for restore the dependencies.
 
     Run elevatorTest for see the terminal with the simulation.
 
-    (Optional) Open Test Explorer and run all tests for see the green checks.
+    Open Test Explorer and run all tests for see the green checks.
