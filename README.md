@@ -37,7 +37,7 @@ The solution include a test project unitTestElevator. This is very important bec
 
 🖥️ How to Run
 
-    - Open the solution .sln in Visual Studio 2022.
+    - Open the solution .sln in Visual Studio.
 
     - Build the solution for restore the dependencies.
 
